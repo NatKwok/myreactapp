@@ -1,6 +1,6 @@
 import Box from '@mui/material/Box';
 
-function contact() {
+function details() {
     return <Box
     sx={{
       bgcolor: 'text.secondary',
@@ -8,8 +8,9 @@ function contact() {
       p: 2,
     }}
   >
-    <h1 style={{textAlign: "center"}}>Contact Us Here!</h1>
+
+    <h1 style={{textAlign: "center"}}>Details</h1>
     </Box>
 }
 
-export default contact;
+export default details;

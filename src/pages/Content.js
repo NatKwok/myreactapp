@@ -8,8 +8,9 @@ function contact() {
       p: 2,
     }}
   >
-    <h1 style={{textAlign: "center"}}>Contact Us Here!</h1>
+    <h1 style={{textAlign: "center"}}>Content Page</h1>;
     </Box>
+    
 }
 
 export default contact;

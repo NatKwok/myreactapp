@@ -6,7 +6,9 @@ import Footer from './components/layouts/Footer';
 function MainLayout() {
 return <div>
 <Header />
+<br></br>
 <Outlet />
+<br></br>
 <Footer />
 </div>
 } 

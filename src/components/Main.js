@@ -3,6 +3,7 @@ import DisplayMessage from "./DisplayMessage";
 import Clock from "./Clock";
 import CounterDisplay from "./CounterDisplay";
 import UserActions from "./UserActions";
+import Box from '@mui/material/Box';
 
 function Main() {
     const [color, setColor] = useState("blue");
@@ -16,7 +17,14 @@ function Main() {
     }, [color, count]);
   
     return (
-      <div>
+      <div style={{textAlign: "center"}}>
+                <Box
+          sx={{
+            bgcolor: 'text.secondary',
+            color: 'primary.contrastText',
+            p: 2,
+          }}
+        >
         <DisplayMessage color={color} />
         <Clock />
         <CounterDisplay count={count} />
@@ -26,6 +34,7 @@ function Main() {
           count={count}
           color={color}
         />
+  </Box>
       </div>
     );
   }

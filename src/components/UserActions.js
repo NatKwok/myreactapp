@@ -6,7 +6,7 @@ function UserActions(props) {
       props.setCount(props.count + 1);
     };
   
-    return <Button variant="contained" onClick={handleonClick}>Click Here to React</Button>;
+    return <Button variant="contained" color="success" onClick={handleonClick}>Click Here to React</Button>;
   }
 
   export default UserActions;
